@@ -16,6 +16,17 @@ We propose the **MRER** framework to address these limitations through two core 
 - **Multi-Relational Multimodal Interaction Encoder**: This module encodes multimodal features under three distinct relational perspectives—**Global Temporal Order**, **Intra-speaker Consistency**, and **Local Proximity**. It enables the framework to adaptively adjust modality weights based on the specific relational context.
 - **Cause-Guided Emotion Reconstruction**: This mechanism reconstructs emotion representations from paired cause representations under semantic **hard negative sample constraints**. Combined with **supervised contrastive alignment**, it explicitly encodes the causal explanatory relationship into the joint representation space.
 
+## Datasets
+
+The ECF, ConvECPE, and MECAD datasets can be accessed from the following repositories:
+
+- **ECF**: https://github.com/NUSTM/MECPE
+- **ConvECPE**: https://github.com/SenticNet/ECPEC
+- **MECAD**: https://github.com/redifinition/M3HG
+
+Please refer to the original repositories for dataset licenses, access policies, and preprocessing details.
+
+
 ## Results
 
 Extensive experiments on three large-scale benchmark datasets demonstrate that **MRER** consistently achieves state-of-the-art (SOTA) performance:
